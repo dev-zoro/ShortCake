@@ -39,3 +39,8 @@ body {
 #joke-btn:active {
   background-color: #0056b3;
 }
+
+#joke-box {
+    height: 80px;
+    width: 18rem;
+}
