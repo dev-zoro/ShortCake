@@ -1,29 +1,3 @@
-// import {hindiJokes} from "./hindiJokes.js";
-// const hindiJokes = require('./hindiJokes');
-// // const URL = "https://official-joke-api.appspot.com/random_joke";
-// const URL = "https://official-joke-api.appspot.com/jokes/general/random";
-
-// const btn = document.getElementById("joke-btn");
-// const display = document.getElementById("joke-box");
-
-// async function getAJoke(){
-//     let response = await fetch(URL);
-//     let data = await response.json();
-//     console.log(data);
-//     let jokePunchline = data[0].punchline;
-//     let jokeSetUp = data[0].setup;
-//     console.log(jokePunchline);
-//     console.log(jokeSetUp);
-//     let joke = jokePunchline + " " + jokeSetUp;
-    
-//     display.value = `${jokeSetUp} 
-// ${jokePunchline}`;
-
-// }
-
-// btn.addEventListener('click', async(event) => {
-//     await getAJoke();
-// });
 
 const hindiJokes = [
   ["पप्पू: मम्मी मैं शादी नहीं करूंगा। ","मम्मी: क्यों?", "पप्पू: क्योंकि आप भी पापा को रोज़ डांटती हो।"],
@@ -48,7 +22,29 @@ const hindiJokes = [
 
     ["हसबैंड – डार्लिंग तुम खुबसूरत होती जा रही हो,",
     "पत्नी किचन से- तुमने कैसे जाना ?",
-    "हसबैंड- तुम्हें देखकर तो अब रोटियां भी जलने लगी हैं।"]
+    "हसबैंड- तुम्हें देखकर तो अब रोटियां भी जलने लगी हैं।"],
+
+    ["एक शराबी दारू पी पी कर मर गया लेकिन उसकी दारू के प्रति श्रद्धा तो देखो वो मर के भी यह कह गया शराब तो ठीक थी! पर मेरा लिवर ही कमज़ोर निकला"],
+    ["उपदेशक: अगर गधे को शराब और पानी दोनों पीने को दिये जाये तो गधा क्या पियेगा",
+    "शराबी: जाहिर है पानी पियेगा",
+    "उपदेशक: क्यों?",
+    "शराबी: क्योंकि वो गधा है।"],
+
+    ["टीचर- Date और तारीख में क्या अंतर है ?",
+    "सारी Class चुप",
+    "गप्पू- सर, Date में Girlfriend के साथ जाते है और तारीख में वकील के साथ"],
+
+    ["पत्नी- तुम मुझे सोते हुए गाली दे रहे थे",
+    "पति- नहीं तुम्हें कोई गलतफहमी हुई है",
+    "पत्नी- क्या गलतफलमी?",
+    "पति- यही, ''कि मैं सो रहा था''",
+    "तब से वाकई में पति की नींद गायब है!"],
+
+    ["सहेली- वाह बहन तू तो चुनाव लड़ रही है।",
+    "औरत- हां और देखना मैं पक्का जीतूंगी।",
+    "सहेली- अच्छा तुझे ये चुनाव लड़ने का ख्याल कहां से आया।",
+    "औरत- अरे जब भी मेरी अपने पति से लड़ाई होती है, तो मैं ही तो जीतती हूं।"],
+
 ];
 
 const jokeBox = document.getElementById("joke-box");
